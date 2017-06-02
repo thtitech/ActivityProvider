@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="answer_text_size">48sp</dimen>
+    <dimen name="request_text_size">48sp</dimen>
+    <dimen name="button_text_size">48sp</dimen>
+</resources>

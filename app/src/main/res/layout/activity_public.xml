@@ -4,49 +4,55 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="jp.ac.titech.itpro.sdl.activityprovider.MainActivity">
+    tools:context="jp.ac.titech.itpro.sdl.activityprovider.PublicActivity">
 
     <TextView
-        android:id="@+id/answer_view"
+        android:id="@+id/request_view"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:gravity="center"
-        android:textSize="@dimen/answer_text_size" />
+        android:textSize="@dimen/request_text_size" />
 
     <RadioGroup
-        android:id="@+id/request_group"
+        android:id="@+id/answer_group"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         >
 
         <RadioButton
-            android:id="@+id/request_1"
+            android:id="@+id/answer_1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/request_1_label"
+            android:text="@string/answer_1_label"
             android:textSize="@dimen/button_text_size" />
 
         <RadioButton
-            android:id="@+id/request_2"
+            android:id="@+id/answer_2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/request_2_label"
+            android:text="@string/answer_2_label"
             android:textSize="@dimen/button_text_size" />
 
         <RadioButton
-            android:id="@+id/request_3"
+            android:id="@+id/answer_3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/request_3_label"
+            android:text="@string/answer_3_label"
+            android:textSize="@dimen/button_text_size" />
+
+        <RadioButton
+            android:id="@+id/answer_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/answer_4_label"
             android:textSize="@dimen/button_text_size" />
     </RadioGroup>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:onClick="onClickStartButton"
-        android:text="@string/start_button_label"
+        android:onClick="onClickReturnButton"
+        android:text="@string/return_button_label"
         android:textSize="@dimen/button_text_size" />
-
 </LinearLayout>
