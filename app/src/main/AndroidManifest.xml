@@ -19,7 +19,6 @@
         <activity android:name=".PublicActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <category android:name="mycategory" />
             </intent-filter>
         </activity>
     </application>
